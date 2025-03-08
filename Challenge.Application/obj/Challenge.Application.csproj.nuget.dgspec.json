@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Application\\Challenge.Application.csproj": {}
+    "c:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Application\\Challenge.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Application\\Challenge.Application.csproj": {
+    "c:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Application\\Challenge.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Application\\Challenge.Application.csproj",
+        "projectUniqueName": "c:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Application\\Challenge.Application.csproj",
         "projectName": "Challenge.Application",
-        "projectPath": "C:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Application\\Challenge.Application.csproj",
+        "projectPath": "c:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Application\\Challenge.Application.csproj",
         "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Application\\obj\\",
+        "outputPath": "c:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config"

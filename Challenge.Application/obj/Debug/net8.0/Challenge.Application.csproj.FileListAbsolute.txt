@@ -1,0 +1,12 @@
+c:\Users\Lucas\Desktop\codes\vscodeprojects\backendchallenge\backend-challange\Challenge.Application\bin\Debug\net8.0\Challenge.Application.deps.json
+c:\Users\Lucas\Desktop\codes\vscodeprojects\backendchallenge\backend-challange\Challenge.Application\bin\Debug\net8.0\Challenge.Application.dll
+c:\Users\Lucas\Desktop\codes\vscodeprojects\backendchallenge\backend-challange\Challenge.Application\bin\Debug\net8.0\Challenge.Application.pdb
+c:\Users\Lucas\Desktop\codes\vscodeprojects\backendchallenge\backend-challange\Challenge.Application\obj\Debug\net8.0\Challenge.Application.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Lucas\Desktop\codes\vscodeprojects\backendchallenge\backend-challange\Challenge.Application\obj\Debug\net8.0\Challenge.Application.AssemblyInfoInputs.cache
+c:\Users\Lucas\Desktop\codes\vscodeprojects\backendchallenge\backend-challange\Challenge.Application\obj\Debug\net8.0\Challenge.Application.AssemblyInfo.cs
+c:\Users\Lucas\Desktop\codes\vscodeprojects\backendchallenge\backend-challange\Challenge.Application\obj\Debug\net8.0\Challenge.Application.csproj.CoreCompileInputs.cache
+c:\Users\Lucas\Desktop\codes\vscodeprojects\backendchallenge\backend-challange\Challenge.Application\obj\Debug\net8.0\Challenge.Application.sourcelink.json
+c:\Users\Lucas\Desktop\codes\vscodeprojects\backendchallenge\backend-challange\Challenge.Application\obj\Debug\net8.0\Challenge.Application.dll
+c:\Users\Lucas\Desktop\codes\vscodeprojects\backendchallenge\backend-challange\Challenge.Application\obj\Debug\net8.0\refint\Challenge.Application.dll
+c:\Users\Lucas\Desktop\codes\vscodeprojects\backendchallenge\backend-challange\Challenge.Application\obj\Debug\net8.0\Challenge.Application.pdb
+c:\Users\Lucas\Desktop\codes\vscodeprojects\backendchallenge\backend-challange\Challenge.Application\obj\Debug\net8.0\ref\Challenge.Application.dll

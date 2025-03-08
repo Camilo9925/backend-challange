@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Domain\\Challenge.Domain.csproj": {}
+    "c:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Domain\\Challenge.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Domain\\Challenge.Domain.csproj": {
+    "c:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Domain\\Challenge.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Domain\\Challenge.Domain.csproj",
+        "projectUniqueName": "c:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Domain\\Challenge.Domain.csproj",
         "projectName": "Challenge.Domain",
-        "projectPath": "C:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Domain\\Challenge.Domain.csproj",
+        "projectPath": "c:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Domain\\Challenge.Domain.csproj",
         "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Domain\\obj\\",
+        "outputPath": "c:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Infrastructure\\Challenge.Infrastructure.csproj": {}
+    "c:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Infrastructure\\Challenge.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Infrastructure\\Challenge.Infrastructure.csproj": {
+    "c:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Infrastructure\\Challenge.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Infrastructure\\Challenge.Infrastructure.csproj",
+        "projectUniqueName": "c:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Infrastructure\\Challenge.Infrastructure.csproj",
         "projectName": "Challenge.Infrastructure",
-        "projectPath": "C:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Infrastructure\\Challenge.Infrastructure.csproj",
+        "projectPath": "c:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Infrastructure\\Challenge.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Infrastructure\\obj\\",
+        "outputPath": "c:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config"
