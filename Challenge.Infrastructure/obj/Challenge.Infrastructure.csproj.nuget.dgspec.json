@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Infrastructure\\Challenge.Infrastructure.csproj": {}
+    "C:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Infrastructure\\Challenge.Infrastructure.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Infrastructure\\Challenge.Infrastructure.csproj": {
+    "C:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Infrastructure\\Challenge.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Infrastructure\\Challenge.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Infrastructure\\Challenge.Infrastructure.csproj",
         "projectName": "Challenge.Infrastructure",
-        "projectPath": "c:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Infrastructure\\Challenge.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Infrastructure\\Challenge.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "MongoDb.Driver": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
