@@ -3,7 +3,13 @@ using Challenge.Infrastructure.Context;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddSingleton<MongoDb>();
+builder.Services.AddSingleton<MongoDb>(sp =>
+{
+    var configuration = sp.GetRequiredService<IConfiguration>();
+    string connectionString = configuration.GetValue<string>("Mongo:MongoConnectionString");
+    string databaseName = configuration.GetValue<string>("Mongo:MongoDataBase");
+    return new MongoDb(connectionString, databaseName);
+});
 
 
 builder.Services.AddControllers();

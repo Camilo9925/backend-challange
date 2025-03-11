@@ -1,23 +1,17 @@
 using MongoDB.Driver;
 using Microsoft.Extensions.Configuration;
+using Challenge.Domain.Entities;
 
 namespace Challenge.Infrastructure.Context;
 
 public class MongoDb
 {
-    public IMongoDatabase DB { get; }
-    public MongoDb(IConfiguration configuration)
+    private readonly IMongoDatabase _dataBase;
+    public MongoDb(string connectionString, string dataBaseName)
     {
-        try
-            {                
-                var connectionString = configuration.GetConnectionString("MongoDbConnection");                
-                var clientSettings = MongoClientSettings.FromConnectionString(connectionString);                
-                var client = new MongoClient(clientSettings);               
-                DB = client.GetDatabase("challenge-database");
-            }
-            catch (Exception ex)
-            {
-                throw new MongoException("Could not connect to MongoDb.", ex);
-            }
+        var client = new MongoClient(connectionString);
+        _dataBase = client.GetDatabase(dataBaseName);
     }
+    public IMongoCollection<OutputTool> OutputTaskCollection =>
+        _dataBase.GetCollection<OutputTool>("OutputTools");
 }

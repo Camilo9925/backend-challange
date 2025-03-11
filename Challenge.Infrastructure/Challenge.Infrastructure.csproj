@@ -11,4 +11,8 @@
     <PackageReference Include="MongoDb.Driver" Version="3.2.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Challenge.Domain\Challenge.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
