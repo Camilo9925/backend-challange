@@ -5,7 +5,7 @@ namespace Challenge.Domain.Entities;
 public class OutputTool
 {
     [JsonPropertyName("id")]    
-    public int Id { get; set; }
+    public string? Id { get; set; }
     [JsonPropertyName("title")]
     public string? Title { get; set; }
     [JsonPropertyName("link")]
