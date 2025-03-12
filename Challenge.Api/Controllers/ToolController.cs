@@ -29,7 +29,7 @@ public class ToolController : Controller
     }
     [ProducesResponseType<List<OutputTool>>(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    [HttpGet("tag/{tag}")]
+    [HttpGet("tag")]
     public async Task<ActionResult<List<OutputTool>>> GetByTag([FromQuery] string tag)
     {
         try
