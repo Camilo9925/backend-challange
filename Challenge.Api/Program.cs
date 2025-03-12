@@ -1,4 +1,6 @@
+using Challenge.Application.Validator;
 using Challenge.Infrastructure.Context;
+using FluentValidation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +13,7 @@ builder.Services.AddSingleton<MongoDb>(sp =>
     return new MongoDb(connectionString, databaseName);
 });
 
+builder.Services.AddValidatorsFromAssemblyContaining<InputToolValidator>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
