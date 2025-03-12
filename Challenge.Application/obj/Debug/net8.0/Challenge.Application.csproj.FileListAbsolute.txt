@@ -10,3 +10,9 @@ c:\Users\Lucas\Desktop\codes\vscodeprojects\backendchallenge\backend-challange\C
 c:\Users\Lucas\Desktop\codes\vscodeprojects\backendchallenge\backend-challange\Challenge.Application\obj\Debug\net8.0\refint\Challenge.Application.dll
 c:\Users\Lucas\Desktop\codes\vscodeprojects\backendchallenge\backend-challange\Challenge.Application\obj\Debug\net8.0\Challenge.Application.pdb
 c:\Users\Lucas\Desktop\codes\vscodeprojects\backendchallenge\backend-challange\Challenge.Application\obj\Debug\net8.0\ref\Challenge.Application.dll
+C:\Users\Lucas\Desktop\codes\vscodeprojects\backendchallenge\backend-challange\Challenge.Application\bin\Debug\net8.0\Challenge.Domain.dll
+C:\Users\Lucas\Desktop\codes\vscodeprojects\backendchallenge\backend-challange\Challenge.Application\bin\Debug\net8.0\Challenge.Infrastructure.dll
+C:\Users\Lucas\Desktop\codes\vscodeprojects\backendchallenge\backend-challange\Challenge.Application\bin\Debug\net8.0\Challenge.Domain.pdb
+C:\Users\Lucas\Desktop\codes\vscodeprojects\backendchallenge\backend-challange\Challenge.Application\bin\Debug\net8.0\Challenge.Infrastructure.pdb
+C:\Users\Lucas\Desktop\codes\vscodeprojects\backendchallenge\backend-challange\Challenge.Application\obj\Debug\net8.0\Challenge.Application.csproj.AssemblyReference.cache
+C:\Users\Lucas\Desktop\codes\vscodeprojects\backendchallenge\backend-challange\Challenge.Application\obj\Debug\net8.0\Challeng.D9C8220B.Up2Date

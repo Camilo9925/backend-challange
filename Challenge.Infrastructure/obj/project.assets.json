@@ -264,6 +264,16 @@
         "runtime": {
           "lib/net7.0/ZstdSharp.dll": {}
         }
+      },
+      "Challenge.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Challenge.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Challenge.Domain.dll": {}
+        }
       }
     }
   },
@@ -730,10 +740,16 @@
         "zstdsharp.port.0.7.3.nupkg.sha512",
         "zstdsharp.port.nuspec"
       ]
+    },
+    "Challenge.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Challenge.Domain/Challenge.Domain.csproj",
+      "msbuildProject": "../Challenge.Domain/Challenge.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Challenge.Domain >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 9.0.2",
       "MongoDb.Driver >= 3.2.1"
     ]
@@ -762,7 +778,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Domain\\Challenge.Domain.csproj": {
+              "projectPath": "C:\\Users\\Lucas\\Desktop\\codes\\vscodeprojects\\backendchallenge\\backend-challange\\Challenge.Domain\\Challenge.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
