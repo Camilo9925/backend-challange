@@ -1,3 +1,4 @@
+using Challenge.Application.Exceptions;
 using Challenge.Domain.Entities;
 using Challenge.Infrastructure.Repositories;
 using FluentValidation;
@@ -14,22 +15,47 @@ public class ToolService : IToolService
         _repository = repository;
         _validator = validator;
     }
-    public Task<List<OutputTool>> GetAll()
+    public async Task<List<OutputTool>> GetAll()
     {
-        throw new NotImplementedException();
+        var tools = await _repository.GetAll();
+        if (tools == null || tools.Count == 0)
+            throw new NotFoundException("No tools found.");
+
+        return tools;
     }
-    public Task<List<OutputTool>> GetByTag(string tag)
+    public async Task<List<OutputTool>> GetByTag(string tag)
     {
-        throw new NotImplementedException();
+        if (string.IsNullOrWhiteSpace(tag))
+            throw new Challenge.Application.Exceptions.ValidationException("Tag cannot be empty.");
+
+        var tools = await _repository.GetByTag(tag);
+        if (tools == null || tools.Count == 0)
+            throw new NotFoundException($"No tools found with the tag '{tag}'.");
+
+        return tools;
     }
 
-    public Task<OutputTool> Create(InputTool tool)
+    public async Task<OutputTool> Create(InputTool tool)
     {
-        throw new NotImplementedException();
+        var validationResult = await _validator.ValidateAsync(tool);
+        if (!validationResult.IsValid)
+        {
+            var errors = string.Join("; ", validationResult.Errors.Select(e => e.ErrorMessage));
+            throw new Challenge.Application.Exceptions.ValidationException(errors);
+        }
+
+        return await _repository.Create(tool);
     }
 
-    public Task<bool> Delete(string id)
+    public async Task<bool> Delete(string id)
     {
-        throw new NotImplementedException();
-    }      
+        if (string.IsNullOrWhiteSpace(id))
+            throw new Challenge.Application.Exceptions.ValidationException("ID cannot be empty.");
+
+        var deleted = await _repository.Delete(id);
+        if (!deleted)
+            throw new NotFoundException($"No tool found with ID '{id}'.");
+
+        return true;
+    }
 }

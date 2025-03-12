@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Challenge.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+054aa52a213943fcaa2dcd33dfa053ffa6664107")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1bc59522540c433e5b18fd09cb127ce2215b53d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Challenge.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Challenge.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
