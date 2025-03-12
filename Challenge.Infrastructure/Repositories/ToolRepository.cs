@@ -7,6 +7,12 @@ namespace Challenge.Infrastructure.Repositories;
 public class ToolRepository : IToolRepository
 {
     private readonly MongoDb _context;
+
+    public ToolRepository(MongoDb context)
+    {
+        _context = context;
+    }
+
     public async Task<List<OutputTool>> GetAll()
     {
         return await _context.OutputTaskCollection.Find(_ => true).ToListAsync();
