@@ -7,9 +7,9 @@ namespace Challenge.Api.Controllers;
 [Route("[controller]")]
 public class ToolController : Controller
 {
-    private readonly ToolService _service;
+    private readonly IToolService _service;
 
-    public ToolController(ToolService service)
+    public ToolController(IToolService service)
     {
         _service = service;
     }
@@ -29,7 +29,7 @@ public class ToolController : Controller
     }
     [ProducesResponseType<List<OutputTool>>(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    [HttpGet]
+    [HttpGet("tag/{tag}")]
     public async Task<ActionResult<List<OutputTool>>> GetByTag([FromQuery] string tag)
     {
         try

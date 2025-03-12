@@ -1,5 +1,7 @@
+using Challenge.Application.Services;
 using Challenge.Application.Validator;
 using Challenge.Infrastructure.Context;
+using Challenge.Infrastructure.Repositories;
 using FluentValidation;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,7 +14,8 @@ builder.Services.AddSingleton<MongoDb>(sp =>
     string databaseName = configuration.GetValue<string>("Mongo:MongoDataBase");
     return new MongoDb(connectionString, databaseName);
 });
-
+builder.Services.AddScoped<IToolRepository, ToolRepository>();
+builder.Services.AddScoped<IToolService, ToolService>();
 builder.Services.AddValidatorsFromAssemblyContaining<InputToolValidator>();
 
 builder.Services.AddControllers();

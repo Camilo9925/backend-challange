@@ -212,6 +212,9 @@
         }
       },
       "Challenge.Domain/1.0.0": {
+        "dependencies": {
+          "MongoDB.Driver": "3.2.1"
+        },
         "runtime": {
           "Challenge.Domain.dll": {
             "assemblyVersion": "1.0.0",

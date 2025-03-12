@@ -1,9 +1,13 @@
 using System.Text.Json.Serialization;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace Challenge.Domain.Entities;
 
 public class OutputTool
 {
+    [BsonId]
+    [BsonRepresentation(BsonType.String)]
     [JsonPropertyName("id")]    
     public string? Id { get; set; }
     [JsonPropertyName("title")]
