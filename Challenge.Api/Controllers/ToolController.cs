@@ -57,8 +57,8 @@ public class ToolController : Controller
     }
     [ProducesResponseType<bool>(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    [HttpDelete]
-    public async Task<ActionResult<bool>> Delete([FromRoute] string id)
+    [HttpDelete("{id}")]
+    public async Task<ActionResult<bool>> Delete(string id)
     {
         try
         {
