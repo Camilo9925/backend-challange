@@ -1,9 +1,11 @@
 using Challenge.Application.Services;
 using Challenge.Domain.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Challenge.Api.Controllers;
 
+[Authorize]
 [Route("[controller]")]
 public class ToolController : Controller
 {
