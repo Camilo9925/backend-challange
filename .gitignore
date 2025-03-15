@@ -1,0 +1,44 @@
+# Pastas de build e cache
+bin/
+obj/
+.vscode/
+.vs/
+out/
+Debug/
+Release/
+
+# Configurações de usuário
+*.suo
+*.user
+*.csproj.user
+*.sln.ide
+*.sln.docstates
+
+# Dependências do NuGet
+packages/
+*.nupkg
+project.lock.json
+artifacts/
+
+# Logs e arquivos temporários
+*.log
+*.tlog
+*.cache
+*.bak
+*.swp
+*.tmp
+*.DS_Store
+
+# Configurações de ambiente e credenciais
+.env
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+appsettings.json
+
+# Arquivos gerados por testes
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
